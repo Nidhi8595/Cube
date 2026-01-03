@@ -1,6 +1,6 @@
 export default function AddOns() {
   return (
-    <section className="py-24 bg-white">
+    <section className="py-24 bg-white shadow-2xl">
       <div className="max-w-[1200px] mx-auto px-8">
 
         <h2 className="text-4xl heading-tight mb-4">
@@ -22,7 +22,7 @@ export default function AddOns() {
           ].map(([title, desc]) => (
             <div
               key={title}
-              className="bg-cubeNavy text-white p-8 hover:translate-y-[-4px] transition-transform"
+              className="bg-cube-navy shadow-2xl text-white p-8 hover:translate-y-[-4px] transition-transform rounded-md"
             >
               <h3 className="text-xl mb-2">{title}</h3>
               <p className="text-white/80">{desc}</p>
@@ -30,7 +30,7 @@ export default function AddOns() {
           ))}
 
           {/* Custom Add-On */}
-          <div className="border border-cube-blue p-8">
+          <div className="border-2 border-cube-blue p-8 shadow-2xl rounded-md">
             <h3 className="text-xl mb-2">Custom Add-On</h3>
             <p className="text-gray-600">
               Tailor-made solutions to meet your unique needs.

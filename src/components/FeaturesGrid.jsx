@@ -35,10 +35,10 @@ export default function FeaturesGrid() {
           What’s included
         </h3>
 
-        <div className="grid grid-cols-3 gap-y-12 gap-x-24 bg-white p-14 shadow-sm">
+        <div className="grid grid-cols-3 gap-y-12 gap-x-24 bg-white p-14 shadow-2xl rounded-md">
           {features.map(({ icon: Icon, label }) => (
             <div key={label} className="flex items-center gap-4">
-              <Icon className="w-7 h-7 text-cubeNavy" />
+              <Icon className="w-7 h-7 text-cube-navy" />
               <span className="text-lg text-cubeText">{label}</span>
             </div>
           ))}

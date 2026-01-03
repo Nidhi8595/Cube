@@ -15,7 +15,7 @@ export default function Enterprise() {
           </button>
         </div>
 
-        <ul className="grid grid-cols-2 gap-y-3 text-sm text-cubeText">
+        <ul className="grid grid-cols-2 gap-y-3 text-sm text-cubeText shadow-2xl p-8 bg-white rounded-md">
   {[
     "Unlimited Users",
     "Unlimited Projects",

@@ -27,7 +27,7 @@ export default function PricingTabs() {
   <button
     key={tab}
     onClick={() => setActive(i)}
-    className={`flex-1 py-5 text-sm font-medium transition-colors
+    className={`flex-1 py-5 text-sm font-medium transition-colors shadow-2xl
       ${active === i
         ? "bg-cube-blue text-white"
         : "text-gray-600 hover:bg-gray-100"

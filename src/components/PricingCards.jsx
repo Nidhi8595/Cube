@@ -37,19 +37,19 @@ export default function PricingCards() {
 
             {/* PROJECT LICENSE */}
             <motion.div
-  whileHover={{ y: -6 }}
-  transition={{ type: "spring", stiffness: 200 }}
-  className="bg-[#F8FAFC] border p-8 flex flex-col justify-between"
->
-  <div>
-    <h3 className="text-xl">Project License</h3>
-    <p className="text-4xl mt-3 font-medium">Custom</p>
-  </div>
+                whileHover={{ y: -6 }}
+                transition={{ type: "spring", stiffness: 200 }}
+                className="bg-[#F8FAFC] border p-8 flex flex-col justify-between shadow-2xl rounded-md"
+            >
+                <div>
+                    <h3 className="text-xl">Project License</h3>
+                    <p className="text-4xl mt-3 font-medium">Custom</p>
+                </div>
 
-  <button className="mt-12 border border-cube-blue text-cube-blue px-6 py-4 hover:bg-cube-blue hover:text-white transition">
-    TALK TO US
-  </button>
-</motion.div>
+                <button className="mt-12 border border-cube-blue text-cube-blue px-6 py-4 hover:bg-cube-blue hover:text-white transition rounded-md">
+                    TALK TO US
+                </button>
+            </motion.div>
 
         </section>
     );
