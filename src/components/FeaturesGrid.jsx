@@ -1,4 +1,4 @@
-// components/FeaturesGrid.jsx
+
 import { motion } from "framer-motion";
 import { Icon } from "@iconify/react";
 

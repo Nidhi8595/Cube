@@ -1,4 +1,4 @@
-// pages/PricingPage.jsx
+
 import Navbar from "../components/Navbar";
 import PricingHero from "../components/PricingHero";
 import PricingTabs from "../components/PricingTabs";
@@ -44,7 +44,7 @@ export default function PricingPage() {
 
             </section>
 
-<SupportCTA />
+            <SupportCTA />
             {/* FAQ (LIGHT GRAY) */}
             <section className="bg-cubeGray">
                 <FAQ />

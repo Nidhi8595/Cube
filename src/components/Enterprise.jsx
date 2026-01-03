@@ -1,4 +1,4 @@
-// components/Enterprise.jsx
+
 export default function Enterprise() {
   return (
     <section className="bg-gray-50 py-24">

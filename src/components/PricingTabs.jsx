@@ -9,11 +9,8 @@ const tabs = [
 export default function PricingTabs() {
   const [active, setActive] = useState(1);
 
-
   return (
-    <div className="relative flex max-w-[1200px] mx-auto -mt-14 bg-white shadow-sm border">
-
-      {/* <div className="absolute bottom-0 left-1/3 h-[3px] w-1/3 bg-cube-blue opacity-80" /> */}
+    <div className="relative flex max-w-[1200px] mx-auto -mt-14 bg-white shadow-2xl border">
 
       <div
         className="absolute bottom-0 h-[3px] bg-cube-blue transition-all duration-300"
