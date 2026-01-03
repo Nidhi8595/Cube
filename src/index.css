@@ -7,11 +7,12 @@ body {
   background-color: #ffffff;
   color: #0F172A;
   overflow-x: hidden;
+  font-family: "IBM Plex Sans", system-ui, -apple-system, BlinkMacSystemFont;
 }
 #root {
   height: 100%;
   margin: 0;
-  font-family: Inter, system-ui, sans-serif;
+  /* font-family: Inter, system-ui, sans-serif; */
 }
 
 * {
@@ -22,3 +23,8 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+.heading-tight {
+  letter-spacing: -0.02em;
+}
+

@@ -3,6 +3,13 @@ import { motion } from "framer-motion";
 export default function PricingHero() {
   return (
     <section className="relative py-40 overflow-hidden bg-gradient-to-b from-[#0F2A44] to-[#0B1F33] text-white">
+
+      {/* diagonal overlay */}
+<div className="absolute inset-0 bg-[linear-gradient(120deg,rgba(255,255,255,0.06)_0%,transparent_40%)]" />
+
+{/* vignette */}
+<div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_40%,rgba(0,0,0,0.35))]" />
+
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_20%,rgba(255,255,255,0.06),transparent_60%)]" />
 
       <motion.div

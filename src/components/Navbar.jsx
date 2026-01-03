@@ -5,14 +5,15 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto flex items-center justify-between px-8 h-20">
         <div className="font-bold text-xl">CUBE</div>
 
-        <nav className="flex gap-8 text-sm text-gray-200">
+        <nav className="flex gap-8 text-lg text-gray-200">
           {["Platform", "Products", "Customers", "Resources", "Pricing"].map(i => (
             <span
-  key={i}
-  className="relative cursor-pointer after:absolute after:-bottom-1 after:left-0 after:h-[1px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full"
->
-  {i}
-</span>
+              key={i}
+              className="relative cursor-pointer after:absolute after:-bottom-1 after:left-0 after:h-[1px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full"
+            >
+              {i}
+              <span className="text-xs opacity-70 hover:text-white transition-colors duration-200">▾</span>
+            </span>
           ))}
         </nav>
 
