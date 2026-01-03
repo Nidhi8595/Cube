@@ -6,6 +6,7 @@ html,
 body {
   background-color: #ffffff;
   color: #0F172A;
+  overflow-x: hidden;
 }
 #root {
   height: 100%;
@@ -13,3 +14,11 @@ body {
   font-family: Inter, system-ui, sans-serif;
 }
 
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}

@@ -9,8 +9,10 @@ const features = [
 
 export default function FeaturesGrid() {
   return (
-    <section className="bg-white py-20">
-      <div className="max-w-6xl mx-auto grid grid-cols-3 gap-10">
+    <section className="bg-white py-24">
+  <div className="max-w-6xl mx-auto grid grid-cols-3 gap-y-14 gap-x-24">
+
+
         {features.map((item, i) => (
           <motion.div
             key={i}
@@ -20,8 +22,12 @@ export default function FeaturesGrid() {
             transition={{ duration: 0.4, delay: i * 0.05 }}
             className="flex items-center gap-4"
           >
-            <div className="w-5 h-5 border border-gray-400 rounded-sm" />
-            <span className="text-gray-900 font-medium">{item}</span>
+           <div className="w-5 h-5 border border-gray-400 rounded-sm bg-white shadow-sm" />
+
+
+            <span className="text-[15px] text-[#334155]">
+
+{item}</span>
           </motion.div>
         ))}
       </div>

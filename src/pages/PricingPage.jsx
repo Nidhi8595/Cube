@@ -9,41 +9,47 @@ import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
 
 export default function PricingPage() {
-  return (
-    <div className="bg-white text-cubeText">
-      <Navbar />
+    return (
+        <div className="bg-white text-cubeText">
+            <Navbar />
 
-      {/* HERO (NAVY) */}
-      <section className="bg-cubeNavy">
-        <PricingHero />
-      </section>
+            {/* HERO (NAVY) */}
 
-      {/* TABS + CARDS (LIGHT GRAY) */}
-      <section className="bg-cubeGray">
-        <PricingTabs />
-        <PricingCards />
-      </section>
+            <PricingHero />
 
-      {/* FEATURES (WHITE) */}
-      <section className="bg-white">
-        <FeaturesGrid />
-      </section>
 
-      {/* ENTERPRISE (WHITE) */}
-      <section className="bg-white">
-        <Enterprise />
-      </section>
+            {/* TABS + CARDS (LIGHT GRAY) */}
+            <section className="bg-cubeGray">
+                <PricingTabs />
+                <PricingCards />
+                <div className="h-px bg-gradient-to-r from-transparent via-[#E2E8F0] to-transparent" />
 
-      {/* FAQ (LIGHT GRAY) */}
-      <section className="bg-cubeGray">
-        <FAQ />
-      </section>
+            </section>
 
-      {/* FOOTER (NAVY) */}
-      <section className="bg-cubeNavy text-white">
-        <Footer />
-      </section>
-    </div>
-  );
+            {/* FEATURES (WHITE) */}
+            <section className="bg-white">
+                <FeaturesGrid />
+                <div className="h-px bg-gradient-to-r from-transparent via-[#E2E8F0] to-transparent" />
+
+            </section>
+
+            {/* ENTERPRISE (WHITE) */}
+            <section className="bg-white">
+                <Enterprise />
+                <div className="h-px bg-gradient-to-r from-transparent via-[#E2E8F0] to-transparent" />
+
+            </section>
+
+            {/* FAQ (LIGHT GRAY) */}
+            <section className="bg-cubeGray">
+                <FAQ />
+            </section>
+
+            {/* FOOTER (NAVY) */}
+            <section className="bg-cubeNavy text-white">
+                <Footer />
+            </section>
+        </div>
+    );
 }
 
