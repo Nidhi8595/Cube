@@ -28,12 +28,11 @@ const features = [
 
 export default function FeaturesGrid() {
   return (
-    <section className="bg-[#F8FAFC] py-24">
-      <div className="max-w-[1200px] mx-auto px-8">
-
-        <h3 className="text-cube-blue font-bold text-lg ml-6 mb-8 tracking-wide uppercase">
+    <section className=" pb-24 max-w-6xl bg-cube-gray mx-auto px-8">
+<div className="bg-white">
+   <h3 className="text-cube-blue font-bold text-lg p-8 tracking-wide uppercase">
           What’s included
-        </h3>
+        </h3> 
 
         <div className="grid grid-cols-3 gap-y-12 gap-x-24 bg-white p-14 shadow-2xl rounded-md">
           {features.map(({ icon: Icon, label }) => (
@@ -43,8 +42,8 @@ export default function FeaturesGrid() {
             </div>
           ))}
         </div>
+        </div>
 
-      </div>
     </section>
   );
 }

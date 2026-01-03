@@ -3,7 +3,7 @@ import { div } from "framer-motion/client";
 
 export default function PricingCards() {
     return (
-        <div className="py-8 max-w-6xl px-8 mx-auto ">
+        <div className="py-8 bg-cube-gray max-w-6xl px-8 mx-auto ">
             <p >
                 Use CUBE for
             </p>
@@ -50,7 +50,7 @@ export default function PricingCards() {
                     transition={{ type: "spring", stiffness: 200 }}
                     className="bg-[#F8FAFC] border p-8 flex flex-col justify-between shadow-2xl rounded-md"
                 >
-                    <div>
+                    <div className="bg-gray-300 rounded-md p-2">
                         <h3 className="text-xl">Project License</h3>
                         <p className="text-4xl mt-3 font-medium">
                             Custom <span className="text-base font-normal">/ user / year</span>
@@ -68,7 +68,7 @@ export default function PricingCards() {
                         ))}
                     </ul>
 
-                    <button className="mt-12 border border-cube-blue text-cube-blue px-6 py-4 hover:bg-cube-blue hover:text-white transition rounded-md">
+                    <button className="mt-12 border border-cube-blue text-cube-blue px-6 py-4 bg-gray-300 hover:bg-cube-blue hover:text-white transition rounded-md">
                         TALK TO US
                     </button>
                 </motion.div>
