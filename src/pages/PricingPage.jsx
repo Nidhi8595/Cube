@@ -7,6 +7,8 @@ import FeaturesGrid from "../components/FeaturesGrid";
 import Enterprise from "../components/Enterprise";
 import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
+import AddOns from "../components/AddOns";
+import SupportCTA from "../components/SupportCTA";
 
 export default function PricingPage() {
     return (
@@ -33,6 +35,8 @@ export default function PricingPage() {
 
             </section>
 
+            <AddOns />
+
             {/* ENTERPRISE (WHITE) */}
             <section className="bg-white">
                 <Enterprise />
@@ -40,6 +44,7 @@ export default function PricingPage() {
 
             </section>
 
+<SupportCTA />
             {/* FAQ (LIGHT GRAY) */}
             <section className="bg-cubeGray">
                 <FAQ />

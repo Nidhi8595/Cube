@@ -15,14 +15,29 @@ export default function Enterprise() {
           </button>
         </div>
 
-        <ul className="grid grid-cols-2 gap-y-4 text-gray-900">
-          <li>Unlimited Users</li>
-          <li>Unlimited Projects</li>
-          <li>Unlimited Storage</li>
-          <li>SSO & Audit Log</li>
-          <li>Custom Development</li>
-          <li>99.9% SLA</li>
-        </ul>
+        <ul className="grid grid-cols-2 gap-y-3 text-sm text-cubeText">
+  {[
+    "Unlimited Users",
+    "Unlimited Projects",
+    "Unlimited Spaces",
+    "Unlimited Storage",
+    "No File Size Limit",
+    "Custom Roles & Permissions",
+    "Custom Fields & Forms",
+    "Custom Branding & Domain",
+    "Unlimited Version History",
+    "Multi-Portal Connections",
+    "Dedicated Account Manager",
+    "Mix & Match Modules",
+    "SSO & Audit Log",
+    "Custom Development",
+    "99.9% SLA",
+    "On-prem / Private Cloud Hosting",
+  ].map(item => (
+    <li key={item}>• {item}</li>
+  ))}
+</ul>
+
 
       </div>
     </section>
